@@ -1,10 +1,75 @@
-<!DOCTYPE html>
+
+{% load static %}
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+   <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>New project</title>
+	<link rel="stylesheet" href="static/css/home.css" type="text/css">
+
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+
+<script src="static/js/carofredsel.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body bgcolor="cyan">
-<h1>my name is Sohanur Rahman Pappu</h1>
+<body >
+<div class="container">
+   <header>
+		<div class="container">
+			<div class="logo">
+              <img src="{ % static/image/logo1.jpg %}" alt="">
+              <nav>
+              	<ul>
+              		<li><a href="">Home</a></li>
+              		<li><a href="">About</a></li>
+              		<li><a href="">Contact</a></li>
+              		<li><a href="templates/registration.html">Registration</a></li>
+                    <li ><a href="">LogIn</a></li>
+
+              	</ul>
+
+              </nav>
+
+			</div>
+		</div>
+	</header>
+    <section class="slider">
+		<ul class="slider-carousel" id="slider-carousel">
+			<li>
+				<h2>Beautifies Business <span>Templat</span></h2>
+				<p>We believe in creativity alwas</p>
+				<i class="fa fa-apple"></i>
+				<i class="fa fa-android"></i>
+				<i class="fa fa-windows"></i>
+				<p><br>
+					who is such a man as does not want get success life is not meat for work
+					life gone health is gone if we are change here.
+				</p><br>
+				<a href="https://getbootstrap.com/" class="btn btn-half">Set started</a>
+                <a href="" class="btn btn-full">Buy Now</a>
+
+			</li>
+			<li>
+
+			</li>
+			<li>
+
+			</li>
+		</ul>
+	</section>
+	<script src="static/js/main.js"></script>
+
+</div>
 </body>
 </html>
